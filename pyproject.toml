@@ -21,7 +21,7 @@ classifiers = [
 ]
 
 [project.urls]
-repository = "https://github.com/Chinedu-E/create-fast-app"
+repository = "https://github.com/Chinedu-E/create_fast_app"
 
 [project.scripts]
 create_fast_app = 'create_fast_app.cli:create_fastapi_app'
