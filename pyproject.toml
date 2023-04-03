@@ -9,7 +9,7 @@ packages = ['create_fast_app', 'create_fast_app.templates']
 
 [project]
 name = "create-fast-app"
-version = "1.0.2"
+version = "0.0.1"
 authors = [
   { name="Nedu Ekeruche", email="cekeruche@icloud.com" },
 ]
@@ -26,7 +26,8 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "https://github.com/Chinedu-E/create_fast_app"
+Homepage = "https://github.com/Chinedu-E/create_fast_app"
+
 
 [project.scripts]
-create_fast_app = 'create_fast_app.cli:create_fastapi_app'
+create-fast-app = 'create_fast_app.cli:create_fastapi_app'

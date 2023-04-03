@@ -14,7 +14,7 @@ pip install create-fast-app
 ## Usage
 To create a new FastAPI project, run the following command:
 
-```
+```#000000
 create-fast-app <project-name> --type=<project-type>
 ```
 
@@ -31,7 +31,7 @@ You can also include the --ml option to attach a machine learning directory to y
 
 For example, to create a FastAPI monolith project with a machine learning directory attached, run:
 
-```
+```#000000
 create-fast-app my-project --type=monolith --ml=True
 ```
 
