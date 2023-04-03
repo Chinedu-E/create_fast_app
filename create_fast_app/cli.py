@@ -30,6 +30,7 @@ def create_fastapi_app(project_name, type, ml):
         
     else:
         click.echo("Invalid project given. Must be one of [ml_app, monolith, microservice]")
+        sys.exit(2)
         
     
     # Create a virtual environment and install the required dependencies
