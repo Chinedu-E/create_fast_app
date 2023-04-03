@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ['create_fast_app', 'create_fast_app.templates']
+packages = ['create_fast_app']
 
 [project]
 name = "create-fast-app"
