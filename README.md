@@ -27,5 +27,3 @@ create_fast_app/
 ├── setup.cfg
 ├── setup.py
 └── requirements.txt
-
-pypi-AgENdGVzdC5weXBpLm9yZwIkNjVhMDI2NDAtMzVkNy00MzQ5LTliNWQtMWQ0NTVlMDZlNDAyAAIqWzMsIjUwNzVkM2UxLTI5MTItNDMxOS1iMDMwLTkxYzg4MzlmZjRiYyJdAAAGIEaKe-bA2aF0Y94f0512byPCy8xk3uDD9sZDZVENMoSs
