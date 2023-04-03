@@ -20,10 +20,10 @@ def create_fastapi_app(project_name, type, ml):
     
     # Copy the FastAPI project template to the new directory
     if type == "microservice":
-        utils.generate_microservice_app(project_dir)
+        utils.generate_microservice_app(project_dir, attach_ml=ml)
         
     elif type == "monolith":
-        utils.generate_monolith_app(project_dir)
+        utils.generate_monolith_app(project_dir, attach_ml=ml)
         
     elif type == "ml_app":
         utils.generate_ml_app(project_dir)
@@ -37,7 +37,7 @@ def create_fastapi_app(project_name, type, ml):
     utils.install_packages()
     
     # Print the success message
-    click.echo(f'Success! Created {project_name} at {current_dir}/{project_name}')
+    click.echo(f'Success! Created {project_name} at {current_dir}\{project_name}')
 
 
 
