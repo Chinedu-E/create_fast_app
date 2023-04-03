@@ -40,4 +40,86 @@ After running the command, `create-fast-app` will create a new directory with yo
 ## Project Structure
 
 The directory structure for each project type is as follows:
-
+### Microservice
+```
+microservice-project-1/
+├── requirements/
+│   ├── base.txt
+│   ├── dev.txt
+│   └── prod.txt
+├── src/
+│   ├── internal/
+│   │   └── ...
+│   ├── __init__.py
+│   ├── app.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   └── utils.py
+├── tests
+├── Dockerfile
+├── README.md
+├── Makefile
+├── .env
+├── .gitignore
+└── venv
+```
+### Monolith
+```
+monolith-project-1/
+├── requirements/
+│   ├── base.txt
+│   ├── dev.txt
+│   └── prod.txt
+├── src/
+│   ├── package_one/
+│   │   ├── config.py
+│   │   ├── constants.py
+│   │   ├── dependencies.py
+│   │   ├── exceptions.py
+│   │   ├── router.py
+│   │   ├── schema.py
+│   │   ├── service.py
+│   │   └── utils.py
+│   ├── internal/
+│   │   └── ...
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── database.py
+│   ├── models.py
+│   └── utils.py
+├── tests
+├── Dockerfile
+├── README.md
+├── Makefile
+├── .env
+├── .gitignore
+└── venv
+```
+### Machine learning
+```
+ml-project-1/
+├── data/
+│   ├── raw
+│   └── processed/
+│       ├── train
+│       └── test
+├── models
+├── notebooks
+├── src/
+│   ├── data/
+│   │   └── make_dataset.py
+│   ├── feature/
+│   │   └── build_features.py
+│   ├── models/
+│   │   ├── predict.py
+│   │   └── train.py
+│   └── utils.py
+├── Dockerfile
+├── README.md
+├── Makefile
+├── .env
+└── .gitignore
+```
+If attached to a monolith or a microservice project, this directory is mounted into the internal directory of the project.
